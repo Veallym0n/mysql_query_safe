@@ -1,5 +1,5 @@
 <?php
-require_once('PHPSQLParser.php');
+require_once(‘src/PHPSQLParser.php');
 
 $DangerFunction = Array('benchmark','sleep','pg_sleep','concat_ws','system_user','load_file','database','current_user');
 $DangerDB = Array('mysql','information_schema');
